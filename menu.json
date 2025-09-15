@@ -1,0 +1,87 @@
+{
+  "items": [
+    {
+      "id": "refri-lata",
+      "name": "Refrigerante (lata)",
+      "description": "Coca, Guaraná, Sprite ou Pepsi",
+      "price": 6.0,
+      "category": "Bebidas",
+      "tags": ["gelado", "lata"],
+      "emoji": "🥤"
+    },
+    {
+      "id": "agua",
+      "name": "Água Mineral",
+      "description": "Com ou sem gás",
+      "price": 4.0,
+      "category": "Bebidas",
+      "tags": ["sem açúcar"],
+      "emoji": "💧"
+    },
+    {
+      "id": "suco-natural",
+      "name": "Suco Natural",
+      "description": "Laranja, uva ou maracujá",
+      "price": 8.0,
+      "category": "Bebidas",
+      "tags": ["natural", "frutas"],
+      "emoji": "🧃"
+    },
+
+    {
+      "id": "sanduiche-natureba",
+      "name": "Sanduíche Natureba",
+      "description": "Pão integral, alface, tomate, queijo branco",
+      "price": 12.0,
+      "category": "Comidas",
+      "tags": ["vegetariano", "leve"],
+      "emoji": "🥪"
+    },
+    {
+      "id": "hotdog",
+      "name": "Hot Dog",
+      "description": "Salsicha, molho, batata palha e molho especial",
+      "price": 10.0,
+      "category": "Comidas",
+      "tags": ["clássico"],
+      "emoji": "🌭"
+    },
+    {
+      "id": "coxinha",
+      "name": "Coxinha",
+      "description": "Frango tradicional",
+      "price": 7.0,
+      "category": "Comidas",
+      "tags": ["salgado"],
+      "emoji": "🍗"
+    },
+
+    {
+      "id": "brigadeiro",
+      "name": "Brigadeiro",
+      "description": "Tradicional, com granulado",
+      "price": 3.0,
+      "category": "Doces",
+      "tags": ["chocolate"],
+      "emoji": "🍫"
+    },
+    {
+      "id": "bolo-fatia",
+      "name": "Bolo (fatia)",
+      "description": "Sabores do dia",
+      "price": 6.0,
+      "category": "Doces",
+      "tags": ["caseiro"],
+      "emoji": "🍰"
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie",
+      "description": "Brownie de chocolate com nozes",
+      "price": 15.0,
+      "category": "Doces",
+      "tags": ["chocolate", "sobremesa"],
+      "emoji": "🍫"
+    }
+  ]
+}

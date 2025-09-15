@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capy's Foods - Cardápio Digital</title>
+  <meta name="description" content="Cardápio digital do Capy's Foods. Conheça nossos pratos, bebidas e sobremesas deliciosas.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Dados do Menu (embutidos) -->
+  <script>
+    window.MENU_DATA = {
+      items: [
+        {
+          id: 1,
+          name: 'Tacos',
+          description: 'Tortilhas recheadas, bem saborosas!',
+          price: 25.00,
+          category: 'Lanches',
+          tags: ['salgado'],
+          emoji: '🌮'
+        },
+        {
+          id: 2,
+          name: 'Cookie — Ao Leite',
+          description: 'Cookie macio com gotas de chocolate ao leite',
+          price: 12.00,
+          category: 'Sobremesas',
+          tags: ['cookie', 'chocolate'],
+          emoji: '🍪'
+        },
+        {
+          id: 3,
+          name: 'Cookie — Meio Amargo',
+          description: 'Gotas de chocolate meio amargo',
+          price: 12.00,
+          category: 'Sobremesas',
+          tags: ['cookie', 'chocolate'],
+          emoji: '�'
+        },
+        {
+          id: 4,
+          name: 'Cookie — M&M\'s',
+          description: 'Cookie com confeitos coloridos',
+          price: 15.00,
+          category: 'Sobremesas',
+          tags: ['cookie', 'confeitos'],
+          emoji: '🍪'
+        },
+        {
+          id: 5,
+          name: 'Brownie',
+          description: 'Chocolate intenso, bem molhadinho',
+          price: 15.00,
+          category: 'Sobremesas',
+          tags: ['chocolate'],
+          emoji: '🍫'
+        },
+        {
+          id: 6,
+          name: 'Suco de Uva Del Valle',
+          description: 'Gelado',
+          price: 8.00,
+          category: 'Bebidas',
+          tags: ['suco', 'uva', 'del valle'],
+          emoji: '�'
+        },
+        {
+          id: 7,
+          name: 'Suco de Laranja Natural',
+          description: 'Natural',
+          price: 8.00,
+          category: 'Bebidas',
+          tags: ['suco', 'laranja', 'natural'],
+          emoji: '🍊'
+        },
+        {
+          id: 8,
+          name: 'Suco de Limão',
+          description: 'Natural e refrescante',
+          price: 8.00,
+          category: 'Bebidas',
+          tags: ['suco', 'natural', 'limão'],
+          emoji: '🍋'
+        },
+        {
+          id: 9,
+          name: 'Coca-Cola',
+          description: 'Lata gelada',
+          price: 10.00,
+          category: 'Bebidas',
+          tags: ['refrigerante'],
+          emoji: '🥤'
+        },
+        {
+          id: 10,
+          name: 'Coca-Cola Zero',
+          description: 'Lata gelada',
+          price: 10.00,
+          category: 'Bebidas',
+          tags: ['refrigerante', 'zero'],
+          emoji: '🥤'
+        },
+        {
+          id: 11,
+          name: 'Guaraná Antarctica',
+          description: 'Lata gelada',
+          price: 10.00,
+          category: 'Bebidas',
+          tags: ['refrigerante'],
+          emoji: '�'
+        },
+        {
+          id: 12,
+          name: 'Guaraná Antarctica Zero',
+          description: 'Lata gelada',
+          price: 10.00,
+          category: 'Bebidas',
+          tags: ['refrigerante', 'zero'],
+          emoji: '🥤'
+        }
+      ]
+    };
+  </script>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="branding" id="headerLogo">
+          <img src="Gemini_Generated_Image_1t5ygt1t5ygt1t5y.png" alt="Capy's Foods" class="logo">
+          <div class="brand-text">
+            <h1>Capy's Foods</h1>
+            <p>Sabores que encantam</p>
+          </div>
+        </a>
+        <button id="themeToggle" class="btn btn-ghost" aria-label="Alternar tema">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Cardápio Digital</h2>
+      <p>Conheça nossos pratos especiais e faça seu pedido</p>
+    </div>
+  </section>
+
+  <!-- Seção de Promoções -->
+  <section class="promo-section">
+    <div class="container">
+      <h2 class="section-title">🔥 Promoções Especiais</h2>
+      <div class="promo-grid">
+        <div class="promo-card">
+          <span class="promo-badge">Oferta</span>
+          <h3>Combo Taco + Cookie</h3>
+          <p>Leve 1 Taco + 1 Cookie e ganhe 1 suco ou refrigerante GRÁTIS!</p>
+          <p class="promo-price">Aproveite já!</p>
+        </div>
+        <div class="promo-card">
+          <span class="promo-badge">Promoção</span>
+          <h3>Cookie + Brownie</h3>
+          <p>Leve 1 Cookie + 1 Brownie por apenas R$25</p>
+          <p class="promo-price">Economize R$2</p>
+        </div>
+        <div class="promo-card">
+          <span class="promo-badge">Super Oferta</span>
+          <h3>3 Cookies</h3>
+          <p>Leve 3 cookies por R$30!<br><small>(Cookies com M&M's: +R$2 cada)</small></p>
+          <p class="promo-price">Até 20% de desconto</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Busca -->
+  <section class="search-section">
+    <div class="container">
+      <!-- Barra de Busca -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Buscar no cardápio..."
+          aria-label="Buscar no cardápio">
+      </div>
+      
+      <!-- Filtros de Categoria -->
+      <div class="category-chips" id="categoryChips">
+        <!-- Preenchido dinamicamente pelo JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção do Cardápio -->
+  <section class="menu-section">
+    <div class="container">
+      <h2 class="section-title">Nosso Cardápio</h2>
+      
+      <!-- Estado Vazio (mostrado quando não há resultados) -->
+      <div id="emptyState" class="empty-state hidden">
+        <img src="taco.png" alt="Ícone de prato vazio" class="empty-image">
+        <h3>Nenhum item encontrado</h3>
+        <p>Não encontramos itens que correspondam à sua busca. Tente outros termos.</p>
+      </div>
+      
+      <!-- Grid de Itens do Cardápio -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Preenchido dinamicamente pelo JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container">
+      <img src="Gemini_Generated_Image_1t5ygt1t5ygt1t5y.png" alt="Capy's Foods" class="footer-logo" id="footerLogo">
+      <p>© <span id="year">2024</span> Capy's Foods. Todos os direitos reservados.</p>
+      <p>Desenvolvido com ❤️ por sua equipe</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="logoLightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="enlargedLogo">
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
