@@ -1,130 +1,130 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capy's Foods - Cardápio Digital</title>
-  <meta name="description" content="Cardápio digital do Capy's Foods. Conheça nossos pratos, bebidas e sobremesas deliciosas.">
+  <title>Capy's Foods - Digital Menu</title>
+  <meta name="description" content="Digital menu for Capy's Foods. Discover our delicious dishes, drinks, and desserts.">
   
   <!-- Favicon -->
   <link rel="icon" href="logo.svg" type="image/svg+xml">
   
-  <!-- Fontes -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
   
-  <!-- Dados do Menu (embutidos) -->
+  <!-- Menu Data (embedded) -->
   <script>
     window.MENU_DATA = {
       items: [
         {
           id: 1,
           name: 'Tacos',
-          description: 'Tortilhas recheadas, bem saborosas!',
+          description: 'Delicious stuffed tortillas!',
           price: 25.00,
-          category: 'Lanches',
-          tags: ['salgado'],
+          category: 'Snacks',
+          tags: ['savory'],
           emoji: '🌮'
         },
         {
           id: 2,
-          name: 'Cookie — Ao Leite',
-          description: 'Cookie macio com gotas de chocolate ao leite',
+          name: 'Milk Chocolate Cookie',
+          description: 'Soft cookie with milk chocolate chips',
           price: 12.00,
-          category: 'Sobremesas',
+          category: 'Desserts',
           tags: ['cookie', 'chocolate'],
           emoji: '🍪'
         },
         {
           id: 3,
-          name: 'Cookie — Meio Amargo',
-          description: 'Gotas de chocolate meio amargo',
+          name: 'Dark Chocolate Cookie',
+          description: 'Dark chocolate chips',
           price: 12.00,
-          category: 'Sobremesas',
+          category: 'Desserts',
           tags: ['cookie', 'chocolate'],
-          emoji: '�'
+          emoji: '🍪'
         },
         {
           id: 4,
-          name: 'Cookie — M&M\'s',
-          description: 'Cookie com confeitos coloridos',
+          name: 'M&M\'s Cookie',
+          description: 'Cookie with colorful M&M\'s',
           price: 15.00,
-          category: 'Sobremesas',
-          tags: ['cookie', 'confeitos'],
+          category: 'Desserts',
+          tags: ['cookie', 'candies'],
           emoji: '🍪'
         },
         {
           id: 5,
           name: 'Brownie',
-          description: 'Chocolate intenso, bem molhadinho',
+          description: 'Rich, fudgy chocolate brownie',
           price: 15.00,
-          category: 'Sobremesas',
+          category: 'Desserts',
           tags: ['chocolate'],
           emoji: '🍫'
         },
         {
           id: 6,
-          name: 'Suco de Uva Del Valle',
-          description: 'Gelado',
+          name: 'Grape Juice Del Valle',
+          description: 'Chilled',
           price: 8.00,
-          category: 'Bebidas',
-          tags: ['suco', 'uva', 'del valle'],
-          emoji: '�'
+          category: 'Drinks',
+          tags: ['juice', 'grape', 'del valle'],
+          emoji: '🍇'
         },
         {
           id: 7,
-          name: 'Suco de Laranja Natural',
-          description: 'Natural',
+          name: 'Fresh Orange Juice',
+          description: 'Freshly squeezed',
           price: 8.00,
-          category: 'Bebidas',
-          tags: ['suco', 'laranja', 'natural'],
+          category: 'Drinks',
+          tags: ['juice', 'orange', 'fresh'],
           emoji: '🍊'
         },
         {
           id: 8,
-          name: 'Suco de Limão',
-          description: 'Natural e refrescante',
+          name: 'Lemonade',
+          description: 'Natural and refreshing',
           price: 8.00,
-          category: 'Bebidas',
-          tags: ['suco', 'natural', 'limão'],
+          category: 'Drinks',
+          tags: ['juice', 'fresh', 'lemon'],
           emoji: '🍋'
         },
         {
           id: 9,
           name: 'Coca-Cola',
-          description: 'Lata gelada',
+          description: 'Chilled can',
           price: 10.00,
-          category: 'Bebidas',
-          tags: ['refrigerante'],
+          category: 'Drinks',
+          tags: ['soda'],
           emoji: '🥤'
         },
         {
           id: 10,
           name: 'Coca-Cola Zero',
-          description: 'Lata gelada',
+          description: 'Chilled can',
           price: 10.00,
-          category: 'Bebidas',
-          tags: ['refrigerante', 'zero'],
+          category: 'Drinks',
+          tags: ['soda', 'zero'],
           emoji: '🥤'
         },
         {
           id: 11,
           name: 'Guaraná Antarctica',
-          description: 'Lata gelada',
+          description: 'Chilled can',
           price: 10.00,
-          category: 'Bebidas',
-          tags: ['refrigerante'],
-          emoji: '�'
+          category: 'Drinks',
+          tags: ['soda'],
+          emoji: '🥤'
         },
         {
           id: 12,
           name: 'Guaraná Antarctica Zero',
-          description: 'Lata gelada',
+          description: 'Chilled can',
           price: 10.00,
-          category: 'Bebidas',
-          tags: ['refrigerante', 'zero'],
+          category: 'Drinks',
+          tags: ['soda', 'zero'],
           emoji: '🥤'
         }
       ]
@@ -132,7 +132,7 @@
   </script>
 </head>
 <body>
-  <!-- Cabeçalho -->
+  <!-- Header -->
   <header class="site-header">
     <div class="container">
       <div class="header-inner">
@@ -140,10 +140,10 @@
           <img src="Gemini_Generated_Image_1t5ygt1t5ygt1t5y.png" alt="Capy's Foods" class="logo">
           <div class="brand-text">
             <h1>Capy's Foods</h1>
-            <p>Sabores que encantam</p>
+            <p>Flavors that delight</p>
           </div>
         </a>
-        <button id="themeToggle" class="btn btn-ghost" aria-label="Alternar tema">🌙</button>
+        <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌙</button>
       </div>
     </div>
   </header>
@@ -151,83 +151,83 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h2>Cardápio Digital</h2>
-      <p>Conheça nossos pratos especiais e faça seu pedido</p>
+      <h2>Digital Menu</h2>
+      <p>Discover our special dishes and place your order</p>
     </div>
   </section>
 
-  <!-- Seção de Promoções -->
+  <!-- Promotions Section -->
   <section class="promo-section">
     <div class="container">
-      <h2 class="section-title">🔥 Promoções Especiais</h2>
+      <h2 class="section-title">🔥 Special Promotions</h2>
       <div class="promo-grid">
         <div class="promo-card">
-          <span class="promo-badge">Oferta</span>
-          <h3>Combo Taco + Cookie</h3>
-          <p>Leve 1 Taco + 1 Cookie e ganhe 1 suco ou refrigerante GRÁTIS!</p>
-          <p class="promo-price">Aproveite já!</p>
+          <span class="promo-badge">Deal</span>
+          <h3>Taco + Cookie Combo</h3>
+          <p>Get 1 Taco + 1 Cookie and get 1 juice or soda for FREE!</p>
+          <p class="promo-price">Try it now!</p>
         </div>
         <div class="promo-card">
-          <span class="promo-badge">Promoção</span>
+          <span class="promo-badge">Promotion</span>
           <h3>Cookie + Brownie</h3>
-          <p>Leve 1 Cookie + 1 Brownie por apenas R$25</p>
-          <p class="promo-price">Economize R$2</p>
+          <p>Get 1 Cookie + 1 Brownie for just D$125</p>
+          <p class="promo-price">Save D$10</p>
         </div>
         <div class="promo-card">
-          <span class="promo-badge">Super Oferta</span>
+          <span class="promo-badge">Super Deal</span>
           <h3>3 Cookies</h3>
-          <p>Leve 3 cookies por R$30!<br><small>(Cookies com M&M's: +R$2 cada)</small></p>
-          <p class="promo-price">Até 20% de desconto</p>
+          <p>Get 3 cookies for D$150!<br><small>(Cookies with M&M's: +D$10 each)</small></p>
+          <p class="promo-price">Up to 20% off</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Seção de Busca -->
+  <!-- Search Section -->
   <section class="search-section">
     <div class="container">
-      <!-- Barra de Busca -->
+      <!-- Search Bar -->
       <div class="search-container">
         <input 
           type="text" 
           id="searchInput" 
           class="search-input" 
-          placeholder="Buscar no cardápio..."
-          aria-label="Buscar no cardápio">
+          placeholder="Search the menu..."
+          aria-label="Search the menu">
       </div>
       
-      <!-- Filtros de Categoria -->
+      <!-- Category Filters -->
       <div class="category-chips" id="categoryChips">
-        <!-- Preenchido dinamicamente pelo JavaScript -->
+        <!-- Filled dynamically by JavaScript -->
       </div>
     </div>
   </section>
 
-  <!-- Seção do Cardápio -->
+  <!-- Menu Section -->
   <section class="menu-section">
     <div class="container">
-      <h2 class="section-title">Nosso Cardápio</h2>
+      <h2 class="section-title">Our Menu</h2>
       
-      <!-- Estado Vazio (mostrado quando não há resultados) -->
+      <!-- Empty State (displayed when there are no results) -->
       <div id="emptyState" class="empty-state hidden">
-        <img src="taco.png" alt="Ícone de prato vazio" class="empty-image">
-        <h3>Nenhum item encontrado</h3>
-        <p>Não encontramos itens que correspondam à sua busca. Tente outros termos.</p>
+        <img src="taco.png" alt="Empty plate icon" class="empty-image">
+        <h3>No items found</h3>
+        <p>We couldn't find any items that match your search. Try other terms.</p>
       </div>
       
-      <!-- Grid de Itens do Cardápio -->
+      <!-- Menu Grid -->
       <div class="menu-grid" id="menuGrid">
-        <!-- Preenchido dinamicamente pelo JavaScript -->
+        <!-- Filled dynamically by JavaScript -->
       </div>
     </div>
   </section>
 
-  <!-- Rodapé -->
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <img src="Gemini_Generated_Image_1t5ygt1t5ygt1t5y.png" alt="Capy's Foods" class="footer-logo" id="footerLogo">
-      <p>© <span id="year">2024</span> Capy's Foods. Todos os direitos reservados.</p>
-      <p>Desenvolvido com ❤️ por sua equipe</p>
+      <p>© <span id="year">2024</span> Capy's Foods. All rights reserved.</p>
+      <p>Developed with ❤️ by your team</p>
     </div>
   </footer>
 

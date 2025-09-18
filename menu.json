@@ -1,86 +1,84 @@
 {
   "items": [
     {
-      "id": "refri-lata",
-      "name": "Refrigerante (lata)",
-      "description": "Coca, Guaraná, Sprite ou Pepsi",
+      "id": "soda-can",
+      "name": "Soda (can)",
+      "description": "Coke, Guaraná, Sprite or Pepsi",
       "price": 6.0,
-      "category": "Bebidas",
-      "tags": ["gelado", "lata"],
+      "category": "Drinks",
+      "tags": ["cold", "can"],
       "emoji": "🥤"
     },
     {
-      "id": "agua",
-      "name": "Água Mineral",
-      "description": "Com ou sem gás",
+      "id": "water",
+      "name": "Mineral Water",
+      "description": "Still or sparkling",
       "price": 4.0,
-      "category": "Bebidas",
-      "tags": ["sem açúcar"],
+      "category": "Drinks",
+      "tags": ["sugar-free"],
       "emoji": "💧"
     },
     {
-      "id": "suco-natural",
-      "name": "Suco Natural",
-      "description": "Laranja, uva ou maracujá",
+      "id": "natural-juice",
+      "name": "Natural Juice",
+      "description": "Orange, grape or passion fruit",
       "price": 8.0,
-      "category": "Bebidas",
-      "tags": ["natural", "frutas"],
+      "category": "Drinks",
+      "tags": ["natural", "fruits"],
       "emoji": "🧃"
     },
-
     {
-      "id": "sanduiche-natureba",
-      "name": "Sanduíche Natureba",
-      "description": "Pão integral, alface, tomate, queijo branco",
+      "id": "nature-sandwich",
+      "name": "Nature Sandwich",
+      "description": "Whole wheat bread, lettuce, tomato, white cheese",
       "price": 12.0,
-      "category": "Comidas",
-      "tags": ["vegetariano", "leve"],
+      "category": "Food",
+      "tags": ["vegetarian", "light"],
       "emoji": "🥪"
     },
     {
       "id": "hotdog",
       "name": "Hot Dog",
-      "description": "Salsicha, molho, batata palha e molho especial",
+      "description": "Sausage, sauce, potato sticks and special sauce",
       "price": 10.0,
-      "category": "Comidas",
-      "tags": ["clássico"],
+      "category": "Food",
+      "tags": ["classic"],
       "emoji": "🌭"
     },
     {
       "id": "coxinha",
       "name": "Coxinha",
-      "description": "Frango tradicional",
+      "description": "Traditional chicken croquette",
       "price": 7.0,
-      "category": "Comidas",
-      "tags": ["salgado"],
+      "category": "Food",
+      "tags": ["savory"],
       "emoji": "🍗"
     },
-
     {
       "id": "brigadeiro",
       "name": "Brigadeiro",
-      "description": "Tradicional, com granulado",
+      "description": "Traditional chocolate truffle",
       "price": 3.0,
-      "category": "Doces",
+      "category": "Desserts",
       "tags": ["chocolate"],
       "emoji": "🍫"
     },
     {
-      "id": "bolo-fatia",
-      "name": "Bolo (fatia)",
-      "description": "Sabores do dia",
+      "id": "cake-slice",
+      "name": "Cake (slice)",
+      "description": "Flavors of the day",
       "price": 6.0,
-      "category": "Doces",
-      "tags": ["caseiro"],
+      "category": "Desserts",
+      "tags": ["homemade"],
       "emoji": "🍰"
     },
     {
       "id": "brownie",
       "name": "Brownie",
-      "description": "Brownie de chocolate com nozes",
+      "description": "Chocolate brownie with nuts",
       "price": 15.0,
-      "category": "Doces",
-      "tags": ["chocolate", "sobremesa"],
+      "category": "Desserts",
+      "tags": ["chocolate", "dessert"],
       "emoji": "🍫"
     }
   ]
