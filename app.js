@@ -30,8 +30,8 @@ const elements = {
 // Estado da aplicação
 const state = {
   menuItems: [],
-  categories: ['Tudo'],
-  activeCategory: 'Tudo',
+  categories: ['All'],
+  activeCategory: 'All',
   searchQuery: ''
 };
 
@@ -67,14 +67,14 @@ function loadMenuData() {
     }
   } catch (error) {
     console.error('Erro ao carregar dados do menu:', error);
-    showError('Não foi possível carregar o cardápio. Por favor, recarregue a página.');
+    showError('Falha ao carregar o menu. Por favor, recarregue a página.');
   }
 }
 
 // Extrai categorias únicas dos itens do menu
 function extractCategories() {
   const categorySet = new Set(state.menuItems.map(item => item.category));
-  state.categories = ['Tudo', ...Array.from(categorySet).sort()];
+  state.categories = ['All', ...Array.from(categorySet).sort()];
 }
 
 // Renderiza os botões de categoria
@@ -121,7 +121,7 @@ function renderMenuItems() {
 function filterItems() {
   return state.menuItems.filter(item => {
     // Filtra por categoria
-    const matchesCategory = state.activeCategory === 'Tudo' || 
+    const matchesCategory = state.activeCategory === 'All' || 
                           item.category === state.activeCategory;
     
     // Filtra por busca
@@ -161,12 +161,9 @@ function createMenuItemCard(item) {
   return card;
 }
 
-// Formata o preço para o formato brasileiro
+// Formata o preço para o formato de Real (R$)
 function formatPrice(price) {
-  return new Intl.NumberFormat('pt-BR', {
-    style: 'currency',
-    currency: 'BRL'
-  }).format(price);
+  return `R$ ${price.toFixed(2).replace('.', ',')}`;
 }
 
 // Configura os event listeners
